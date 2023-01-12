@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "C:/QGC-ROS2/cmakeBuild/QGroundControl_autogen",
+	"CMAKE_BINARY_DIR" : "C:/QGC-ROS2/cmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/QGC-ROS2/cmakeBuild",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/QGC-ROS2/qgroundcontrol",
+	"CMAKE_SOURCE_DIR" : "C:/QGC-ROS2/qgroundcontrol",
+	"INCLUDE_DIR" : "C:/QGC-ROS2/cmakeBuild/QGroundControl_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/AirspaceControl.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/AirspaceWeather.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/ComplianceRules.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/RuleSelector.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/FlightBrief.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/FlightDetails.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/QGroundControl.Airmap.qmldir",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/AirspaceRegulation.qml",
+		"C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/FlightFeature.qml"
+	],
+	"LOCK_FILE" : "C:/QGC-ROS2/cmakeBuild/CMakeFiles/QGroundControl_autogen.dir/AutoRcc_airmap_dummy_K2NRVMZOSX_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "airmap_dummy" ],
+	"OUTPUT_CHECKSUM" : "K2NRVMZOSX",
+	"OUTPUT_NAME" : "qrc_airmap_dummy.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/QGC-ROS2/cmakeBuild/CMakeFiles/QGroundControl_autogen.dir/AutoRcc_airmap_dummy_K2NRVMZOSX_Used.txt",
+	"SOURCE" : "C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy/airmap_dummy.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,460 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/shapelib/shp.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"include",
+			"add_definitions",
+			"set_target_properties",
+			"include_directories",
+			"set_source_files_properties"
+		],
+		"files" : 
+		[
+			"libs/shapelib/CMakeLists.txt",
+			"cmake/CompileOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 149,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 162,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4244"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SHAPELIB_DLLEXPORT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4244"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SHAPELIB_DLLEXPORT"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SHP_DROP_UNABLE_TO_OPEN_MSG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4244"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SHAPELIB_DLLEXPORT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "shp_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "shp_autogen::@ff6c085141bc4b6865c7"
+		}
+	],
+	"id" : "shp::@ff6c085141bc4b6865c7",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/QGroundControl"
+		}
+	},
+	"name" : "shp",
+	"nameOnDisk" : "shp.lib",
+	"paths" : 
+	{
+		"build" : "libs/shapelib",
+		"source" : "libs/shapelib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/shapelib/shpopen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/dbfopen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/safileio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/shptree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/sbnsearch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

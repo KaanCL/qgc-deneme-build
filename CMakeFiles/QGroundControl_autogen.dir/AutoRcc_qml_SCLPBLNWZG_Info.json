@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "C:/QGC-ROS2/cmakeBuild/QGroundControl_autogen",
+	"CMAKE_BINARY_DIR" : "C:/QGC-ROS2/cmakeBuild",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/QGC-ROS2/cmakeBuild",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/QGC-ROS2/qgroundcontrol",
+	"CMAKE_SOURCE_DIR" : "C:/QGC-ROS2/qgroundcontrol",
+	"INCLUDE_DIR" : "C:/QGC-ROS2/cmakeBuild/QGroundControl_autogen/include",
+	"INPUTS" : [ "C:/QGC-ROS2/qgroundcontrol/VideoReceiverApp/main.qml" ],
+	"LOCK_FILE" : "C:/QGC-ROS2/cmakeBuild/CMakeFiles/QGroundControl_autogen.dir/AutoRcc_qml_SCLPBLNWZG_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "SCLPBLNWZG",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/QGC-ROS2/cmakeBuild/CMakeFiles/QGroundControl_autogen.dir/AutoRcc_qml_SCLPBLNWZG_Used.txt",
+	"SOURCE" : "C:/QGC-ROS2/qgroundcontrol/VideoReceiverApp/qml.qrc",
+	"VERBOSITY" : 0
+}

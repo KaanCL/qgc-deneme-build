@@ -1,0 +1,19 @@
+src/Geo/Geo_autogen/timestamp: \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/CMakeLists.txt \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/Constants.hpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/MGRS.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/MGRS.hpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/Math.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/Math.hpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/PolarStereographic.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/PolarStereographic.hpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/QGCGeo.cc \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/QGCGeo.h \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/TransverseMercator.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/TransverseMercator.hpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/UTMUPS.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/UTMUPS.hpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/Utility.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/Utility.h \
+  C:/QGC-ROS2/qgroundcontrol/src/Geo/Utility.hpp \
+  C:/Qt/Tools/CMake_64/bin/cmake.exe
