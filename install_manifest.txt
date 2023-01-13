@@ -222,8 +222,12 @@ C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/forward-step.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/forward.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/gift.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/globe.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/Hand-Black-Left.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/Hand-Black-Right.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/hand-black.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/hand-stop.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/Hand-White-Left.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/Hand-White-Right.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/hand-white.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/hard-drive.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/headphones.svg
@@ -292,6 +296,8 @@ C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/news-paper.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/notification.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/notifications-outline.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/notifications.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/Onay-a.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/Onay-b.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/paste.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/pause-outline.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/pause-solid.svg

@@ -313,5 +313,11 @@
         <file>camera-svgrepo-white.svg</file>
         <file>mesh-black.svg</file>
         <file>mesh-white.svg</file>
+        <file>Hand-Black-Left.svg</file>
+        <file>Hand-Black-Right.svg</file>
+        <file>Hand-White-Left.svg</file>
+        <file>Hand-White-Right.svg</file>
+        <file>Onay-a.svg</file>
+        <file>Onay-b.svg</file>
     </qresource>
 </RCC>

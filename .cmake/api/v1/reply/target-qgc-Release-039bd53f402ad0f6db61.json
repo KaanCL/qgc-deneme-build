@@ -1,0 +1,1621 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/qgc.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"set_source_files_properties"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"cmake/CompileOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 162,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 44,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 215,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4244"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CHARTS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_LOCATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_MULTIMEDIA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_POSITIONINGQUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_POSITIONING_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICKWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SERIALPORT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TESTCASE_BUILDDIR=\"C:/QGC-ROS2/cmakeBuild\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TEXTTOSPEECH_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/src"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtLocation/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtLocation/5.15.2/QtLocation"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioningQuick/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioningQuick/5.15.2/QtPositioningQuick"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioning/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioning/5.15.2/QtPositioning"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCore/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCore/5.15.2/QtCore"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuick/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuick/5.15.2/QtQuick"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQmlModels/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQmlModels/5.15.2/QtQmlModels"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQml/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQml/5.15.2/QtQml"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtNetwork/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtNetwork/5.15.2/QtNetwork"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtGui/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtGui/5.15.2/QtGui"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/VideoManager"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/ui/ui_autogen/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/ui/ui_autogen/include_Debug"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/include_Debug"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/ADSB"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Airmap"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AnalyzeView"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/api"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Audio"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins/APM"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins/Common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins/PX4"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Camera"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/comm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/qmdnsengine/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/qmdnsengine/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Compression"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FactSystem"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FactSystem/FactControls"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FirmwarePlugin"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FirmwarePlugin/APM"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FlightMap"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FlightMap/Widgets"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FollowMe"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Geo"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/GPS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Joystick"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/ui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/ui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/MissionManager"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/PositionManager"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/QmlControls"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/QtLocationPlugin"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/QtLocationPlugin/QMLControl"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Settings"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Terrain"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/uas"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Vehicle"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/VehicleSetup"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/VideoReceiver"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/RosComm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/zlib/windows/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuickControls2"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQml"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCore"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtANGLE"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuickWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtLocation"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioningQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioning"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCharts"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtSerialPort"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtTextToSpeech"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtTest"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/sdl2/msvc/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtXml"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtSql"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/opt/ros/foxy/x64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				12,
+				16,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				40
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4244"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "APP_VERSION_STR=\"7e38200\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CHARTS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_LOCATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_MULTIMEDIA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_POSITIONINGQUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_POSITIONING_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICKWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SERIALPORT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TESTCASE_BUILDDIR=\"C:/QGC-ROS2/cmakeBuild\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TEXTTOSPEECH_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/src"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtLocation/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtLocation/5.15.2/QtLocation"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioningQuick/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioningQuick/5.15.2/QtPositioningQuick"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioning/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioning/5.15.2/QtPositioning"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCore/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCore/5.15.2/QtCore"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuick/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuick/5.15.2/QtQuick"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQmlModels/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQmlModels/5.15.2/QtQmlModels"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQml/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQml/5.15.2/QtQml"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtNetwork/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtNetwork/5.15.2/QtNetwork"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtGui/5.15.2"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtGui/5.15.2/QtGui"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/VideoManager"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/ui/ui_autogen/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/ui/ui_autogen/include_Debug"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/include_Debug"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/ADSB"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Airmap/dummy"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Airmap"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AnalyzeView"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/api"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Audio"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins/APM"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins/Common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/AutoPilotPlugins/PX4"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Camera"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/comm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/qmdnsengine/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/qmdnsengine/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Compression"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FactSystem"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FactSystem/FactControls"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FirmwarePlugin"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FirmwarePlugin/APM"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FlightMap"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FlightMap/Widgets"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/FollowMe"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Geo"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/GPS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Joystick"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/ui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/cmakeBuild/src/ui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/MissionManager"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/PositionManager"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/QmlControls"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/QtLocationPlugin"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/QtLocationPlugin/QMLControl"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Settings"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Terrain"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/uas"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/Vehicle"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/VehicleSetup"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/VideoReceiver"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/src/RosComm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/zlib/windows/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuickControls2"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQml"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCore"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtANGLE"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtQuickWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtLocation"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioningQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtPositioning"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtCharts"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtSerialPort"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtTextToSpeech"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtTest"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/sdl2/msvc/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtXml"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtSql"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/5.15.2/msvc2019_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/opt/ros/foxy/x64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ui::@e0ce1d6ecae3dc67b834"
+		}
+	],
+	"id" : "qgc::@145eef247bfb46b6828c",
+	"name" : "qgc",
+	"nameOnDisk" : "qgc.lib",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				12,
+				14,
+				16,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				40
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				13,
+				15,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				39,
+				41
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				42
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				43
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/CmdLineOptParser.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/CmdLineOptParser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/JsonHelper.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/JsonHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/KMLDomDocument.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/KMLDomDocument.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/KMLHelper.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/KMLHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/LogCompressor.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/LogCompressor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGC.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/QGCApplication.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCApplication.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCComboBox.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCComboBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCConfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCFileDownload.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCFileDownload.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCLoggingCategory.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCLoggingCategory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCMapPalette.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCMapPalette.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCPalette.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCPalette.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCQGeoCoordinate.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCQGeoCoordinate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCTemporaryFile.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCTemporaryFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/QGCToolbox.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/QGCToolbox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/RunGuard.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/RunGuard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ShapeFileHelper.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/ShapeFileHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/SHPFileHelper.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/SHPFileHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/stable_headers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/TerrainTile.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/TerrainTile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/src/qgc_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

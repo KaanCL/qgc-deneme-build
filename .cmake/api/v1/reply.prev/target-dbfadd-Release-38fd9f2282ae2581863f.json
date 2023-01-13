@@ -1,0 +1,358 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/shapelib/dbfadd.exe"
+		},
+		{
+			"path" : "libs/shapelib/dbfadd.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"libs/shapelib/CMakeLists.txt",
+			"cmake/CompileOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 210,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 162,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 44,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 164,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/wd4244"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/dbfadd_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/wd4244"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/dbfadd_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "shp::@ff6c085141bc4b6865c7"
+		},
+		{
+			"id" : "dbfadd_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "dbfadd_autogen::@ff6c085141bc4b6865c7"
+		}
+	],
+	"id" : "dbfadd::@ff6c085141bc4b6865c7",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/QGroundControl"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\shapelib\\shp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "dbfadd",
+	"nameOnDisk" : "dbfadd.exe",
+	"paths" : 
+	{
+		"build" : "libs/shapelib",
+		"source" : "libs/shapelib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/dbfadd_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libs/shapelib/dbfadd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/dbfadd_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/dbfadd_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}
