@@ -279,8 +279,6 @@ void *VideoSettings::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_VideoSettings.stringdata0))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "RosComm"))
-        return static_cast< RosComm*>(this);
     return SettingsGroup::qt_metacast(_clname);
 }
 

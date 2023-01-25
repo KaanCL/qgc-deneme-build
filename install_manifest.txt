@@ -110,6 +110,7 @@ C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/arrow-thin-up.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/artist.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/at-symbol.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/attachment.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/back-black.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/backspace.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/backward-step.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/backward.svg
@@ -347,6 +348,15 @@ C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/stroke-width.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/subdirectory-left.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/subdirectory-right.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/swap.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-dark-off.png
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-dark-off.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-dark-on.png
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-dark-on.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-white-off.png
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-white-off.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-white-on.png
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-white-on.svg
+C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/switch-white.png
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/tablet.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/tag.svg
 C:/QGC-ROS2/cmakeBuild/qgroundcontrol/InstrumentValueIcons/takeoff-black.svg

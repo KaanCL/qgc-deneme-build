@@ -319,5 +319,15 @@
         <file>Hand-White-Right.svg</file>
         <file>Onay-a.svg</file>
         <file>Onay-b.svg</file>
+        <file>switch-dark-off.png</file>
+        <file>switch-dark-off.svg</file>
+        <file>switch-dark-on.png</file>
+        <file>switch-dark-on.svg</file>
+        <file>switch-white.png</file>
+        <file>switch-white-off.png</file>
+        <file>switch-white-off.svg</file>
+        <file>switch-white-on.png</file>
+        <file>switch-white-on.svg</file>
+        <file>back-black.svg</file>
     </qresource>
 </RCC>
