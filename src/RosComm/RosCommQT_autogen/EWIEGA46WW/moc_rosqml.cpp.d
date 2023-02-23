@@ -1,8 +1,10 @@
 C:/QGC-ROS2/cmakeBuild/src/RosComm/RosCommQT_autogen/EWIEGA46WW/moc_rosqml.cpp: C:/QGC-ROS2/qgroundcontrol/src/RosComm/rosqml.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QDebug \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QObject \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/QVector \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdebug.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qobject.h \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/qvector.h \
   C:/opt/ros/foxy/x64/include/QtCore/qalgorithms.h \
   C:/opt/ros/foxy/x64/include/QtCore/qarraydata.h \
   C:/opt/ros/foxy/x64/include/QtCore/qatomic.h \
@@ -324,6 +326,10 @@ C:/QGC-ROS2/cmakeBuild/src/RosComm/RosCommQT_autogen/EWIEGA46WW/moc_rosqml.cpp: 
   C:/opt/ros/foxy/x64/include/rosidl_typesupport_cpp/message_type_support.hpp \
   C:/opt/ros/foxy/x64/include/rosidl_typesupport_cpp/service_type_support.hpp \
   C:/opt/ros/foxy/x64/include/rosidl_typesupport_interface/macros.h \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/detail/joy__builder.hpp \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/detail/joy__struct.hpp \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/detail/joy__traits.hpp \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/joy.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/metrics_message__struct.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/metrics_message__traits.hpp \
@@ -333,6 +339,12 @@ C:/QGC-ROS2/cmakeBuild/src/RosComm/RosCommQT_autogen/EWIEGA46WW/moc_rosqml.cpp: 
   C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/bool__builder.hpp \
   C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/bool__struct.hpp \
   C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/bool__traits.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/header__struct.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/header__traits.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/int16__builder.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/int16__struct.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/int16__traits.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/int16.hpp \
   C:/opt/ros/foxy/x64/include/tracetools/config.h \
   C:/opt/ros/foxy/x64/include/tracetools/tracetools.h \
   C:/opt/ros/foxy/x64/include/tracetools/utils.hpp \

@@ -1,12 +1,16 @@
 src/RosComm/RosCommQT_autogen/timestamp: \
   src/RosComm/ament_cmake_package_templates/templates.cmake \
   C:/QGC-ROS2/qgroundcontrol/src/RosComm/CMakeLists.txt \
-  C:/QGC-ROS2/qgroundcontrol/src/RosComm/rosqml.cpp \
-  C:/QGC-ROS2/qgroundcontrol/src/RosComm/rosqml.h \
+  C:/QGC-ROS2/qgroundcontrol/src/RosComm/mainros.cpp \
+  C:/QGC-ROS2/qgroundcontrol/src/RosComm/mainros.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QDebug \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QObject \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/QTimer \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/QVector \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdebug.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qobject.h \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/qtimer.h \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake \
   C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
   C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
@@ -39,6 +43,7 @@ src/RosComm/RosCommQT_autogen/timestamp: \
   C:/opt/ros/foxy/x64/include/QtCore/qarraydata.h \
   C:/opt/ros/foxy/x64/include/QtCore/qatomic.h \
   C:/opt/ros/foxy/x64/include/QtCore/qbasicatomic.h \
+  C:/opt/ros/foxy/x64/include/QtCore/qbasictimer.h \
   C:/opt/ros/foxy/x64/include/QtCore/qbytearray.h \
   C:/opt/ros/foxy/x64/include/QtCore/qbytearraylist.h \
   C:/opt/ros/foxy/x64/include/QtCore/qchar.h \
@@ -356,15 +361,17 @@ src/RosComm/RosCommQT_autogen/timestamp: \
   C:/opt/ros/foxy/x64/include/rosidl_typesupport_cpp/message_type_support.hpp \
   C:/opt/ros/foxy/x64/include/rosidl_typesupport_cpp/service_type_support.hpp \
   C:/opt/ros/foxy/x64/include/rosidl_typesupport_interface/macros.h \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/detail/joy__builder.hpp \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/detail/joy__struct.hpp \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/detail/joy__traits.hpp \
+  C:/opt/ros/foxy/x64/include/sensor_msgs/msg/joy.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/metrics_message__struct.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
   C:/opt/ros/foxy/x64/include/statistics_msgs/msg/metrics_message.hpp \
-  C:/opt/ros/foxy/x64/include/std_msgs/msg/bool.hpp \
-  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/bool__builder.hpp \
-  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/bool__struct.hpp \
-  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/bool__traits.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/header__struct.hpp \
+  C:/opt/ros/foxy/x64/include/std_msgs/msg/detail/header__traits.hpp \
   C:/opt/ros/foxy/x64/include/tracetools/config.h \
   C:/opt/ros/foxy/x64/include/tracetools/tracetools.h \
   C:/opt/ros/foxy/x64/include/tracetools/utils.hpp \

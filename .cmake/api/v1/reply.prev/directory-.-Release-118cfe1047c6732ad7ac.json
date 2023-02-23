@@ -1,0 +1,274 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"windeployqt",
+			"include"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/Windeployqt.cmake",
+			"cmake/QGCDeploy.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 257,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 289,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 311,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 16
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"QGroundControl.exe"
+			],
+			"targetId" : "QGroundControl::@6890427a1f51a3e7e1df",
+			"targetIndex" : 60,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild/qgroundcontrol",
+			"paths" : 
+			[
+				{
+					"from" : "resources",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild/applications",
+			"paths" : 
+			[
+				"deploy/org.mavlink.qgroundcontrol.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild/icons/hicolor/128x128/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/icons/qgroundcontrol.png",
+					"to" : "org.mavlink.qgroundcontrol.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild/metainfo",
+			"paths" : 
+			[
+				"deploy/org.mavlink.qgroundcontrol.metainfo.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild/",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/qml"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5QuickControls2.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5MultimediaQuick.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5QuickControls2.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5QuickShapes.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5QmlWorkerScript.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5RemoteObjects.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "C:/QGC-ROS2/cmakeBuild",
+			"paths" : 
+			[
+				"C:/Qt/5.15.2/msvc2019_64/bin/Qt5QmlWorkerScript.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

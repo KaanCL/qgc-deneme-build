@@ -847,9 +847,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/QGC-ROS2/qgroundcontrol/src/RosComm/rosqml.h",
+			"C:/QGC-ROS2/qgroundcontrol/src/RosComm/mainros.h",
 			"MU",
-			"EWIEGA46WW/moc_rosqml.cpp",
+			"EWIEGA46WW/moc_mainros.cpp",
 			null
 		]
 	],
@@ -1015,7 +1015,7 @@
 	"SETTINGS_FILE" : "C:/QGC-ROS2/cmakeBuild/src/RosComm/CMakeFiles/RosCommQT_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/QGC-ROS2/qgroundcontrol/src/RosComm/rosqml.cpp", "MU", null ]
+		[ "C:/QGC-ROS2/qgroundcontrol/src/RosComm/mainros.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

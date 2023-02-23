@@ -453,6 +453,9 @@ QGroundControl_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 QGroundControl_SOURCE_DIR:STATIC=C:/QGC-ROS2/qgroundcontrol
 
+//The directory containing a CMake configuration file for QT.
+QT_DIR:PATH=C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5
+
 //No help, variable specified on the command line.
 QT_QMAKE_EXECUTABLE:FILEPATH=C:/Qt/5.15.2/msvc2019_64/bin/qmake.exe
 
@@ -535,7 +538,7 @@ Qt5_DIR:PATH=C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5
 QtLocationPlugin_LIB_DEPENDS:STATIC=general;Qt5::Location;general;Qt5::Sql;general;qgc;
 
 //Dependencies for the target
-RosCommQT_LIB_DEPENDS:STATIC=general;example_interfaces::example_interfaces__rosidl_generator_c;general;example_interfaces::example_interfaces__rosidl_typesupport_introspection_c;general;example_interfaces::example_interfaces__rosidl_typesupport_c;general;example_interfaces::example_interfaces__rosidl_typesupport_introspection_cpp;general;example_interfaces::example_interfaces__rosidl_typesupport_cpp;general;rclcpp::rclcpp;general;qgc;
+RosCommQT_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;sensor_msgs::sensor_msgs__rosidl_generator_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;example_interfaces::example_interfaces__rosidl_generator_c;general;example_interfaces::example_interfaces__rosidl_typesupport_introspection_c;general;example_interfaces::example_interfaces__rosidl_typesupport_c;general;example_interfaces::example_interfaces__rosidl_typesupport_introspection_cpp;general;example_interfaces::example_interfaces__rosidl_typesupport_cpp;general;qgc;general;Qt5::Core;general;Qt5::Quick;
 
 //Path to a program.
 SED_EXECUTABLE:FILEPATH=SED_EXECUTABLE-NOTFOUND
@@ -660,6 +663,9 @@ fastrtps_cmake_module_DIR:PATH=C:/opt/ros/foxy/x64/share/fastrtps_cmake_module/c
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=C:/opt/ros/foxy/x64/share/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=C:/opt/ros/foxy/x64/share/geometry_msgs/cmake
+
 //Dependencies for the target
 gps_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Location;general;Qt5::SerialPort;general;Qt5::Svg;general;Qt5::TextToSpeech;general;qgc;
 
@@ -765,6 +771,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=C:/opt/ros/foxy/x64/share/rosidl_typ
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_cpp/cmake
 
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=C:/opt/ros/foxy/x64/share/sensor_msgs/cmake
+
 //Value Computed by CMake
 shapelib_BINARY_DIR:STATIC=C:/QGC-ROS2/cmakeBuild/libs/shapelib
 
@@ -782,6 +791,9 @@ spdlog_vendor_DIR:PATH=C:/opt/ros/foxy/x64/share/spdlog_vendor/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=C:/opt/ros/foxy/x64/share/statistics_msgs/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=C:/opt/ros/foxy/x64/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=C:/opt/ros/foxy/x64/share/tracetools/cmake

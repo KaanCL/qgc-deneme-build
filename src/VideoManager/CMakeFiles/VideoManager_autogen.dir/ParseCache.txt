@@ -103,7 +103,6 @@ C:/QGC-ROS2/qgroundcontrol/src/VideoManager/GLVideoItemStub.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtQuick/qquickitem.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtQuick/qtquick-config.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtQuick/qtquickglobal.h
-C:/QGC-ROS2/qgroundcontrol/src/VideoManager/SubtitleWriter.cc
 C:/QGC-ROS2/qgroundcontrol/src/VideoManager/SubtitleWriter.h
  mmc:Q_OBJECT
  mdp:C:/QGC-ROS2/qgroundcontrol/src/VideoManager/SubtitleWriter.h
@@ -191,6 +190,7 @@ C:/QGC-ROS2/qgroundcontrol/src/VideoManager/SubtitleWriter.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qvarlengtharray.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qvector.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qversiontagging.h
+C:/QGC-ROS2/qgroundcontrol/src/VideoManager/SubtitleWriter.cc
 C:/QGC-ROS2/qgroundcontrol/src/VideoManager/VideoManager.h
  mmc:Q_OBJECT
  mdp:C:/QGC-ROS2/qgroundcontrol/src/VideoManager/VideoManager.h
