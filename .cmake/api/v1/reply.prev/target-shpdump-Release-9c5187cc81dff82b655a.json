@@ -248,11 +248,11 @@
 			"id" : "shp::@ff6c085141bc4b6865c7"
 		},
 		{
-			"id" : "shpdump_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "shpdump_autogen::@ff6c085141bc4b6865c7"
+		},
+		{
+			"id" : "shpdump_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
 		}
 	],
 	"id" : "shpdump::@ff6c085141bc4b6865c7",

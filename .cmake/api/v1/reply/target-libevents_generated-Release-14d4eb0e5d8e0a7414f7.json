@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/zlib/z.lib"
+			"path" : "libs/libevents/libevents_generated.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -24,12 +24,11 @@
 			"add_compile_options",
 			"include",
 			"add_definitions",
-			"include_directories",
-			"target_include_directories"
+			"include_directories"
 		],
 		"files" : 
 		[
-			"libs/zlib/CMakeLists.txt",
+			"libs/libevents/CMakeLists.txt",
 			"cmake/CompileOptions.cmake",
 			"CMakeLists.txt"
 		],
@@ -41,7 +40,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
@@ -80,12 +79,6 @@
 				"file" : 2,
 				"line" : 164,
 				"parent" : 2
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 3,
-				"parent" : 0
 			}
 		]
 	},
@@ -127,22 +120,18 @@
 			"includes" : 
 			[
 				{
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/zlib"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/libevents"
 				},
 				{
-					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/zlib"
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/zlib/z_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/libevents/libevents_generated_autogen/include"
 				},
 				{
 					"backtrace" : 8,
 					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
-				},
-				{
-					"backtrace" : 8,
-					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
 				},
 				{
 					"backtrace" : 8,
@@ -159,10 +148,6 @@
 				{
 					"backtrace" : 8,
 					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
-				},
-				{
-					"backtrace" : 9,
-					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/zlib/windows/include"
 				}
 			],
 			"language" : "CXX",
@@ -184,19 +169,19 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "z_autogen::@2ec4cce4706ae436a273"
+			"id" : "libevents_generated_autogen::@63ad8548b5335eb1a15b"
 		},
 		{
-			"id" : "z_autogen_timestamp_deps::@2ec4cce4706ae436a273"
+			"id" : "libevents_generated_autogen_timestamp_deps::@63ad8548b5335eb1a15b"
 		}
 	],
-	"id" : "z::@2ec4cce4706ae436a273",
-	"name" : "z",
-	"nameOnDisk" : "z.lib",
+	"id" : "libevents_generated::@63ad8548b5335eb1a15b",
+	"name" : "libevents_generated",
+	"nameOnDisk" : "libevents_generated.lib",
 	"paths" : 
 	{
-		"build" : "libs/zlib",
-		"source" : "libs/zlib"
+		"build" : "libs/libevents",
+		"source" : "libs/libevents"
 	},
 	"sourceGroups" : 
 	[
@@ -228,19 +213,19 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/zlib/z_autogen/mocs_compilation.cpp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/libevents/libevents_generated_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/zlib/z_autogen/timestamp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/libevents/libevents_generated_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/zlib/z_autogen/timestamp.rule",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/libevents/libevents_generated_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

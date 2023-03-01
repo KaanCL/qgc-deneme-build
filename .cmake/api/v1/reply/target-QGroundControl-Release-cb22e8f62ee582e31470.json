@@ -1822,11 +1822,11 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "libevents_generated::@63ad8548b5335eb1a15b"
+			"id" : "libevents_parser::@63ad8548b5335eb1a15b"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "libevents_parser::@63ad8548b5335eb1a15b"
+			"id" : "libevents_generated::@63ad8548b5335eb1a15b"
 		},
 		{
 			"backtrace" : 3,
