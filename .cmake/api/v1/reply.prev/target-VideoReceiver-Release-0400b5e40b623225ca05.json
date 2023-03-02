@@ -31,37 +31,37 @@
 		[
 			"src/VideoReceiver/CMakeLists.txt",
 			"libs/libevents/CMakeLists.txt",
-			"src/Camera/CMakeLists.txt",
-			"src/CMakeLists.txt",
-			"src/FactSystem/CMakeLists.txt",
-			"src/AutoPilotPlugins/CMakeLists.txt",
-			"src/AnalyzeView/CMakeLists.txt",
-			"src/ui/CMakeLists.txt",
-			"src/api/CMakeLists.txt",
-			"src/ADSB/CMakeLists.txt",
-			"src/Audio/CMakeLists.txt",
 			"src/Airmap/CMakeLists.txt",
-			"src/comm/CMakeLists.txt",
+			"src/ui/CMakeLists.txt",
+			"src/AutoPilotPlugins/CMakeLists.txt",
+			"src/ADSB/CMakeLists.txt",
+			"src/api/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"src/AnalyzeView/CMakeLists.txt",
+			"src/Audio/CMakeLists.txt",
+			"src/Camera/CMakeLists.txt",
 			"src/Compression/CMakeLists.txt",
+			"src/comm/CMakeLists.txt",
+			"src/FactSystem/CMakeLists.txt",
 			"src/FactSystem/FactControls/CMakeLists.txt",
 			"src/FirmwarePlugin/CMakeLists.txt",
-			"src/FlightMap/CMakeLists.txt",
-			"src/GPS/CMakeLists.txt",
-			"src/VehicleSetup/CMakeLists.txt",
-			"src/RosComm/CMakeLists.txt",
-			"src/Geo/CMakeLists.txt",
-			"src/QmlControls/CMakeLists.txt",
-			"src/FollowMe/CMakeLists.txt",
-			"src/Joystick/CMakeLists.txt",
 			"src/MissionManager/CMakeLists.txt",
-			"src/Settings/CMakeLists.txt",
-			"src/Terrain/CMakeLists.txt",
 			"src/PositionManager/CMakeLists.txt",
+			"src/FollowMe/CMakeLists.txt",
+			"src/Geo/CMakeLists.txt",
+			"src/Joystick/CMakeLists.txt",
+			"src/QmlControls/CMakeLists.txt",
+			"src/GPS/CMakeLists.txt",
+			"src/RosComm/CMakeLists.txt",
+			"src/FlightMap/CMakeLists.txt",
 			"src/QtLocationPlugin/CMakeLists.txt",
+			"src/Settings/CMakeLists.txt",
 			"src/uas/CMakeLists.txt",
+			"src/Terrain/CMakeLists.txt",
+			"src/VideoManager/CMakeLists.txt",
+			"src/VehicleSetup/CMakeLists.txt",
 			"src/Vehicle/Actuators/CMakeLists.txt",
 			"src/Vehicle/CMakeLists.txt",
-			"src/VideoManager/CMakeLists.txt",
 			"cmake/CompileOptions.cmake",
 			"CMakeLists.txt"
 		],
@@ -217,9 +217,9 @@
 			},
 			{
 				"command" : 5,
-				"file" : 3,
+				"file" : 7,
 				"line" : 2,
-				"parent" : 5
+				"parent" : 9
 			}
 		]
 	},
@@ -804,11 +804,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "libevents_generated::@63ad8548b5335eb1a15b"
+			"id" : "shp::@ff6c085141bc4b6865c7"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "shp::@ff6c085141bc4b6865c7"
+			"id" : "libevents_generated::@63ad8548b5335eb1a15b"
 		},
 		{
 			"backtrace" : 2,
@@ -823,10 +823,10 @@
 			"id" : "libevents_parser_autogen::@63ad8548b5335eb1a15b"
 		},
 		{
-			"id" : "libevents_parser_autogen_timestamp_deps::@63ad8548b5335eb1a15b"
+			"id" : "libevents_health_and_arming_checks_autogen_timestamp_deps::@63ad8548b5335eb1a15b"
 		},
 		{
-			"id" : "libevents_health_and_arming_checks_autogen_timestamp_deps::@63ad8548b5335eb1a15b"
+			"id" : "libevents_parser_autogen_timestamp_deps::@63ad8548b5335eb1a15b"
 		},
 		{
 			"backtrace" : 3,
@@ -834,220 +834,181 @@
 		},
 		{
 			"backtrace" : 4,
-			"id" : "Camera_autogen::@74b335c20fd4345076d7"
+			"id" : "Airmap_autogen::@72ec2c539083dfd3a5ab"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ui_autogen::@e0ce1d6ecae3dc67b834"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "AutoPilotPlugins_autogen::@abc3cc4f8090cb8b75c6"
 		},
 		{
 			"id" : "ui_autogen_timestamp_deps::@e0ce1d6ecae3dc67b834"
 		},
 		{
-			"backtrace" : 5,
-			"id" : "qgc_autogen::@145eef247bfb46b6828c"
-		},
-		{
-			"backtrace" : 6,
-			"id" : "FactSystem_autogen::@8f9ad51fb5b6161937c0"
-		},
-		{
 			"backtrace" : 7,
-			"id" : "AutoPilotPlugins_autogen::@abc3cc4f8090cb8b75c6"
-		},
-		{
-			"backtrace" : 8,
-			"id" : "AnalyzeView_autogen::@1f9110b7e94afc09a3ad"
-		},
-		{
-			"backtrace" : 9,
-			"id" : "ui_autogen::@e0ce1d6ecae3dc67b834"
-		},
-		{
-			"id" : "ADSB_autogen_timestamp_deps::@4bf27f97029ab5cf12e8"
+			"id" : "ADSB_autogen::@4bf27f97029ab5cf12e8"
 		},
 		{
 			"id" : "Airmap_autogen_timestamp_deps::@72ec2c539083dfd3a5ab"
 		},
 		{
-			"id" : "qgc_autogen_timestamp_deps::@145eef247bfb46b6828c"
-		},
-		{
-			"id" : "api_autogen_timestamp_deps::@f0e24b7f04f99860965c"
-		},
-		{
-			"backtrace" : 10,
-			"id" : "api_autogen::@f0e24b7f04f99860965c"
-		},
-		{
-			"backtrace" : 11,
-			"id" : "ADSB_autogen::@4bf27f97029ab5cf12e8"
-		},
-		{
-			"backtrace" : 12,
-			"id" : "Audio_autogen::@ba36979b91b0d976b628"
-		},
-		{
 			"id" : "AnalyzeView_autogen_timestamp_deps::@1f9110b7e94afc09a3ad"
-		},
-		{
-			"id" : "AutoPilotPlugins_autogen_timestamp_deps::@abc3cc4f8090cb8b75c6"
-		},
-		{
-			"backtrace" : 13,
-			"id" : "Airmap_autogen::@72ec2c539083dfd3a5ab"
-		},
-		{
-			"id" : "Camera_autogen_timestamp_deps::@74b335c20fd4345076d7"
 		},
 		{
 			"id" : "Audio_autogen_timestamp_deps::@ba36979b91b0d976b628"
 		},
 		{
-			"backtrace" : 14,
-			"id" : "comm_autogen::@9b7f296b86aef5ecd1dc"
+			"id" : "AutoPilotPlugins_autogen_timestamp_deps::@abc3cc4f8090cb8b75c6"
+		},
+		{
+			"id" : "FirmwarePlugin_autogen_timestamp_deps::@5898138174a1f9bc081f"
+		},
+		{
+			"id" : "qgc_autogen_timestamp_deps::@145eef247bfb46b6828c"
+		},
+		{
+			"id" : "ADSB_autogen_timestamp_deps::@4bf27f97029ab5cf12e8"
+		},
+		{
+			"id" : "api_autogen_timestamp_deps::@f0e24b7f04f99860965c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "api_autogen::@f0e24b7f04f99860965c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "qgc_autogen::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "AnalyzeView_autogen::@1f9110b7e94afc09a3ad"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "Audio_autogen::@ba36979b91b0d976b628"
+		},
+		{
+			"id" : "Camera_autogen_timestamp_deps::@74b335c20fd4345076d7"
+		},
+		{
+			"id" : "comm_autogen_timestamp_deps::@9b7f296b86aef5ecd1dc"
 		},
 		{
 			"id" : "compression_autogen_timestamp_deps::@090e032996f44152490d"
 		},
 		{
-			"backtrace" : 15,
+			"backtrace" : 12,
+			"id" : "Camera_autogen::@74b335c20fd4345076d7"
+		},
+		{
+			"backtrace" : 13,
 			"id" : "compression_autogen::@090e032996f44152490d"
 		},
 		{
 			"id" : "FactSystem_autogen_timestamp_deps::@8f9ad51fb5b6161937c0"
 		},
 		{
-			"id" : "comm_autogen_timestamp_deps::@9b7f296b86aef5ecd1dc"
+			"id" : "FactControls_autogen_timestamp_deps::@bd51febec3e3005f0d32"
 		},
 		{
-			"id" : "FactControls_autogen_timestamp_deps::@bd51febec3e3005f0d32"
+			"backtrace" : 14,
+			"id" : "comm_autogen::@9b7f296b86aef5ecd1dc"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "FactSystem_autogen::@8f9ad51fb5b6161937c0"
 		},
 		{
 			"backtrace" : 16,
 			"id" : "FactControls_autogen::@bd51febec3e3005f0d32"
 		},
 		{
-			"id" : "FirmwarePlugin_autogen_timestamp_deps::@5898138174a1f9bc081f"
-		},
-		{
 			"backtrace" : 17,
 			"id" : "FirmwarePlugin_autogen::@5898138174a1f9bc081f"
 		},
 		{
-			"id" : "FlightMap_autogen_timestamp_deps::@0444486f063b4153bb58"
+			"id" : "Terrain_autogen_timestamp_deps::@0a655ee7d8c3a41863cd"
 		},
 		{
 			"backtrace" : 18,
-			"id" : "FlightMap_autogen::@0444486f063b4153bb58"
+			"id" : "MissionManager_autogen::@e12eb56e7750c53eb58f"
 		},
 		{
-			"id" : "FollowMe_autogen_timestamp_deps::@2395f5deb0f6af44d8eb"
-		},
-		{
-			"id" : "uas_autogen_timestamp_deps::@6da1e3c54276e1f8fc1a"
-		},
-		{
-			"id" : "Vehicle_autogen_timestamp_deps::@c0e1f80321d1675e1ad7"
+			"id" : "Joystick_autogen_timestamp_deps::@d00d4c647d094c431b3c"
 		},
 		{
 			"backtrace" : 19,
-			"id" : "gps_autogen::@74f4afaa1e098026b442"
-		},
-		{
-			"id" : "QtLocationPlugin_autogen_timestamp_deps::@cb27e8890ce76dc7ee3a"
-		},
-		{
-			"id" : "gps_autogen_timestamp_deps::@74f4afaa1e098026b442"
+			"id" : "PositionManager_autogen::@4b267633ab025ca5bd0e"
 		},
 		{
 			"backtrace" : 20,
-			"id" : "VehicleSetup_autogen::@6870a015836745ded890"
+			"id" : "FollowMe_autogen::@2395f5deb0f6af44d8eb"
 		},
 		{
-			"id" : "RosCommQT_autogen_timestamp_deps::@e7be25e0251a6c600598"
+			"id" : "Geo_autogen_timestamp_deps::@dd13c933d3cde356fde1"
 		},
 		{
 			"backtrace" : 21,
-			"id" : "RosCommQT_autogen::@e7be25e0251a6c600598"
+			"id" : "Geo_autogen::@dd13c933d3cde356fde1"
 		},
 		{
 			"backtrace" : 22,
-			"id" : "Geo_autogen::@dd13c933d3cde356fde1"
+			"id" : "Joystick_autogen::@d00d4c647d094c431b3c"
+		},
+		{
+			"id" : "RosCommQT_autogen_timestamp_deps::@e7be25e0251a6c600598"
 		},
 		{
 			"backtrace" : 23,
 			"id" : "QmlControls_autogen::@d5dd82b0e56b2219c454"
 		},
 		{
-			"id" : "Settings_autogen_timestamp_deps::@733e6871ef4a824e534d"
-		},
-		{
 			"backtrace" : 24,
-			"id" : "FollowMe_autogen::@2395f5deb0f6af44d8eb"
+			"id" : "gps_autogen::@74f4afaa1e098026b442"
 		},
 		{
-			"backtrace" : 25,
-			"id" : "Joystick_autogen::@d00d4c647d094c431b3c"
-		},
-		{
-			"backtrace" : 26,
-			"id" : "MissionManager_autogen::@e12eb56e7750c53eb58f"
-		},
-		{
-			"backtrace" : 27,
-			"id" : "Settings_autogen::@733e6871ef4a824e534d"
-		},
-		{
-			"id" : "Geo_autogen_timestamp_deps::@dd13c933d3cde356fde1"
-		},
-		{
-			"id" : "Terrain_autogen_timestamp_deps::@0a655ee7d8c3a41863cd"
-		},
-		{
-			"backtrace" : 28,
-			"id" : "Terrain_autogen::@0a655ee7d8c3a41863cd"
-		},
-		{
-			"id" : "PositionManager_autogen_timestamp_deps::@4b267633ab025ca5bd0e"
-		},
-		{
-			"backtrace" : 29,
-			"id" : "PositionManager_autogen::@4b267633ab025ca5bd0e"
-		},
-		{
-			"backtrace" : 30,
-			"id" : "QtLocationPlugin_autogen::@cb27e8890ce76dc7ee3a"
-		},
-		{
-			"id" : "QmlControls_autogen_timestamp_deps::@d5dd82b0e56b2219c454"
-		},
-		{
-			"id" : "Joystick_autogen_timestamp_deps::@d00d4c647d094c431b3c"
+			"id" : "QtLocationPlugin_autogen_timestamp_deps::@cb27e8890ce76dc7ee3a"
 		},
 		{
 			"id" : "MissionManager_autogen_timestamp_deps::@e12eb56e7750c53eb58f"
 		},
 		{
-			"backtrace" : 31,
-			"id" : "uas_autogen::@6da1e3c54276e1f8fc1a"
+			"backtrace" : 25,
+			"id" : "RosCommQT_autogen::@e7be25e0251a6c600598"
 		},
 		{
-			"id" : "Actuators_autogen_timestamp_deps::@769d8f4df06d82ea4571"
+			"id" : "FollowMe_autogen_timestamp_deps::@2395f5deb0f6af44d8eb"
 		},
 		{
-			"backtrace" : 32,
-			"id" : "Actuators_autogen::@769d8f4df06d82ea4571"
+			"backtrace" : 26,
+			"id" : "FlightMap_autogen::@0444486f063b4153bb58"
 		},
 		{
-			"backtrace" : 33,
-			"id" : "Vehicle_autogen::@c0e1f80321d1675e1ad7"
+			"id" : "PositionManager_autogen_timestamp_deps::@4b267633ab025ca5bd0e"
 		},
 		{
-			"id" : "VehicleSetup_autogen_timestamp_deps::@6870a015836745ded890"
+			"id" : "gps_autogen_timestamp_deps::@74f4afaa1e098026b442"
 		},
 		{
-			"id" : "VideoManager_autogen_timestamp_deps::@18c8e2533fbe1554e465"
+			"id" : "FlightMap_autogen_timestamp_deps::@0444486f063b4153bb58"
 		},
 		{
-			"backtrace" : 34,
-			"id" : "VideoManager_autogen::@18c8e2533fbe1554e465"
+			"backtrace" : 27,
+			"id" : "QtLocationPlugin_autogen::@cb27e8890ce76dc7ee3a"
+		},
+		{
+			"id" : "Settings_autogen_timestamp_deps::@733e6871ef4a824e534d"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "Settings_autogen::@733e6871ef4a824e534d"
+		},
+		{
+			"id" : "QmlControls_autogen_timestamp_deps::@d5dd82b0e56b2219c454"
 		},
 		{
 			"backtrace" : 0,
@@ -1055,6 +1016,45 @@
 		},
 		{
 			"id" : "VideoReceiver_autogen_timestamp_deps::@f0159afbb18d3920e026"
+		},
+		{
+			"id" : "uas_autogen_timestamp_deps::@6da1e3c54276e1f8fc1a"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "uas_autogen::@6da1e3c54276e1f8fc1a"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "Terrain_autogen::@0a655ee7d8c3a41863cd"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "VideoManager_autogen::@18c8e2533fbe1554e465"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "VehicleSetup_autogen::@6870a015836745ded890"
+		},
+		{
+			"id" : "VideoManager_autogen_timestamp_deps::@18c8e2533fbe1554e465"
+		},
+		{
+			"id" : "Vehicle_autogen_timestamp_deps::@c0e1f80321d1675e1ad7"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "Actuators_autogen::@769d8f4df06d82ea4571"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "Vehicle_autogen::@c0e1f80321d1675e1ad7"
+		},
+		{
+			"id" : "VehicleSetup_autogen_timestamp_deps::@6870a015836745ded890"
+		},
+		{
+			"id" : "Actuators_autogen_timestamp_deps::@769d8f4df06d82ea4571"
 		}
 	],
 	"id" : "VideoReceiver::@f0159afbb18d3920e026",

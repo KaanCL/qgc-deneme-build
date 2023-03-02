@@ -283,7 +283,7 @@
 			{
 				"command" : 6,
 				"file" : 18,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 39
 			},
 			{
@@ -479,7 +479,7 @@
 			{
 				"command" : 5,
 				"file" : 18,
-				"line" : 5,
+				"line" : 6,
 				"parent" : 39
 			},
 			{
@@ -515,7 +515,7 @@
 			{
 				"command" : 5,
 				"file" : 18,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 39
 			},
 			{
@@ -1826,11 +1826,11 @@
 		},
 		{
 			"backtrace" : 3,
-			"id" : "libevents_parser::@63ad8548b5335eb1a15b"
+			"id" : "shp::@ff6c085141bc4b6865c7"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "shp::@ff6c085141bc4b6865c7"
+			"id" : "libevents_parser::@63ad8548b5335eb1a15b"
 		},
 		{
 			"backtrace" : 3,
@@ -1841,11 +1841,11 @@
 			"id" : "qmdnsengine::@62d57bfa5434cdc1cf90"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "QGroundControl_autogen::@6890427a1f51a3e7e1df"
+			"id" : "QGroundControl_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "QGroundControl_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "QGroundControl_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "QGroundControl::@6890427a1f51a3e7e1df",

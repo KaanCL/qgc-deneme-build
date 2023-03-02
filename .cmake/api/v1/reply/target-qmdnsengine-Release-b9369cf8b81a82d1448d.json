@@ -364,11 +364,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "qmdnsengine_autogen::@62d57bfa5434cdc1cf90"
+			"id" : "qmdnsengine_autogen_timestamp_deps::@62d57bfa5434cdc1cf90"
 		},
 		{
-			"id" : "qmdnsengine_autogen_timestamp_deps::@62d57bfa5434cdc1cf90"
+			"backtrace" : 0,
+			"id" : "qmdnsengine_autogen::@62d57bfa5434cdc1cf90"
 		}
 	],
 	"id" : "qmdnsengine::@62d57bfa5434cdc1cf90",

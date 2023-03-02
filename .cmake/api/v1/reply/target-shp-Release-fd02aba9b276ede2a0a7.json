@@ -1,11 +1,18 @@
 {
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/shapelib/shprewind.exe"
-		},
-		{
-			"path" : "libs/shapelib/shprewind.pdb"
+			"path" : "libs/shapelib/shp.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -13,13 +20,14 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"install",
-			"target_link_libraries",
 			"add_compile_options",
 			"include",
 			"add_definitions",
-			"include_directories"
+			"set_target_properties",
+			"include_directories",
+			"set_source_files_properties"
 		],
 		"files" : 
 		[
@@ -35,57 +43,63 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 210,
+				"line" : 114,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 223,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 211,
+				"line" : 149,
 				"parent" : 0
 			},
 			{
 				"file" : 2
 			},
 			{
-				"command" : 4,
+				"command" : 3,
 				"file" : 2,
 				"line" : 162,
-				"parent" : 4
+				"parent" : 3
 			},
 			{
 				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
 				"parent" : 5
 			},
 			{
-				"command" : 3,
-				"file" : 1,
-				"line" : 32,
-				"parent" : 6
-			},
-			{
-				"command" : 5,
+				"command" : 4,
 				"file" : 2,
 				"line" : 44,
-				"parent" : 4
+				"parent" : 3
 			},
 			{
 				"command" : 5,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
 				"file" : 1,
 				"line" : 31,
-				"parent" : 6
+				"parent" : 5
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 164,
-				"parent" : 4
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
 			}
 		]
 	},
@@ -98,7 +112,7 @@
 					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"fragment" : "/wd4244"
 				},
 				{
@@ -108,16 +122,20 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SHAPELIB_DLLEXPORT"
 				},
 				{
 					"backtrace" : 9,
@@ -134,7 +152,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/include"
 				},
 				{
 					"backtrace" : 10,
@@ -178,23 +196,31 @@
 					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"fragment" : "/wd4244"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SHAPELIB_DLLEXPORT"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SHP_DROP_UNABLE_TO_OPEN_MSG"
 				},
 				{
 					"backtrace" : 9,
@@ -211,7 +237,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/include"
 				},
 				{
 					"backtrace" : 10,
@@ -239,30 +265,102 @@
 			[
 				1
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4244"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "QGC_APPLICATION_NAME=\"QGroundControl\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_DOMAIN=\"org.qgroundcontrol\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QGC_ORG_NAME=\"QGroundControl.org\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SHAPELIB_DLLEXPORT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib"
+				},
+				{
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/shapelib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/eigen"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/libevents"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/ardupilotmega"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/QGC-ROS2/qgroundcontrol/libs/mavlink/include/mavlink/v2.0/common"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5
+			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "shp::@ff6c085141bc4b6865c7"
-		},
-		{
 			"backtrace" : 0,
-			"id" : "shprewind_autogen::@ff6c085141bc4b6865c7"
+			"id" : "shp_autogen::@ff6c085141bc4b6865c7"
 		},
 		{
-			"id" : "shprewind_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
+			"id" : "shp_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
 		}
 	],
-	"id" : "shprewind::@ff6c085141bc4b6865c7",
+	"id" : "shp::@ff6c085141bc4b6865c7",
 	"install" : 
 	{
 		"destinations" : 
 		[
 			{
 				"backtrace" : 2,
-				"path" : "bin"
+				"path" : "lib"
 			}
 		],
 		"prefix" : 
@@ -270,32 +368,8 @@
 			"path" : "C:/Program Files (x86)/QGroundControl"
 		}
 	},
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "libs\\shapelib\\shp.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "shprewind",
-	"nameOnDisk" : "shprewind.exe",
+	"name" : "shp",
+	"nameOnDisk" : "shp.lib",
 	"paths" : 
 	{
 		"build" : "libs/shapelib",
@@ -308,21 +382,25 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				2
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				3
+				7
 			]
 		}
 	],
@@ -332,27 +410,51 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/mocs_compilation.cpp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "libs/shapelib/shprewind.c",
+			"path" : "libs/shapelib/shpopen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/dbfopen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/safileio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/shptree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "libs/shapelib/sbnsearch.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/timestamp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/timestamp.rule",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shp_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

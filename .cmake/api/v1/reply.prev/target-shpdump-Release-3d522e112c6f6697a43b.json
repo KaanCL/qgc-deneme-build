@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/shapelib/shptreedump.exe"
+			"path" : "libs/shapelib/shpdump.exe"
 		},
 		{
-			"path" : "libs/shapelib/shptreedump.pdb"
+			"path" : "libs/shapelib/shpdump.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -134,7 +134,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shptreedump_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpdump_autogen/include"
 				},
 				{
 					"backtrace" : 10,
@@ -211,7 +211,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shptreedump_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpdump_autogen/include"
 				},
 				{
 					"backtrace" : 10,
@@ -248,14 +248,14 @@
 			"id" : "shp::@ff6c085141bc4b6865c7"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "shptreedump_autogen::@ff6c085141bc4b6865c7"
+			"id" : "shpdump_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
 		},
 		{
-			"id" : "shptreedump_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
+			"backtrace" : 0,
+			"id" : "shpdump_autogen::@ff6c085141bc4b6865c7"
 		}
 	],
-	"id" : "shptreedump::@ff6c085141bc4b6865c7",
+	"id" : "shpdump::@ff6c085141bc4b6865c7",
 	"install" : 
 	{
 		"destinations" : 
@@ -294,8 +294,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "shptreedump",
-	"nameOnDisk" : "shptreedump.exe",
+	"name" : "shpdump",
+	"nameOnDisk" : "shpdump.exe",
 	"paths" : 
 	{
 		"build" : "libs/shapelib",
@@ -332,25 +332,25 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shptreedump_autogen/mocs_compilation.cpp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpdump_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "libs/shapelib/shptreedump.c",
+			"path" : "libs/shapelib/shpdump.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shptreedump_autogen/timestamp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpdump_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shptreedump_autogen/timestamp.rule",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpdump_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

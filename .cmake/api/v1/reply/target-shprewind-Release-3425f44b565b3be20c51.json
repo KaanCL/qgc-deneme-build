@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/shapelib/shpcreate.exe"
+			"path" : "libs/shapelib/shprewind.exe"
 		},
 		{
-			"path" : "libs/shapelib/shpcreate.pdb"
+			"path" : "libs/shapelib/shprewind.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -134,7 +134,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpcreate_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/include"
 				},
 				{
 					"backtrace" : 10,
@@ -211,7 +211,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpcreate_autogen/include"
+					"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/include"
 				},
 				{
 					"backtrace" : 10,
@@ -248,14 +248,14 @@
 			"id" : "shp::@ff6c085141bc4b6865c7"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "shpcreate_autogen::@ff6c085141bc4b6865c7"
+			"id" : "shprewind_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
 		},
 		{
-			"id" : "shpcreate_autogen_timestamp_deps::@ff6c085141bc4b6865c7"
+			"backtrace" : 0,
+			"id" : "shprewind_autogen::@ff6c085141bc4b6865c7"
 		}
 	],
-	"id" : "shpcreate::@ff6c085141bc4b6865c7",
+	"id" : "shprewind::@ff6c085141bc4b6865c7",
 	"install" : 
 	{
 		"destinations" : 
@@ -294,8 +294,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "shpcreate",
-	"nameOnDisk" : "shpcreate.exe",
+	"name" : "shprewind",
+	"nameOnDisk" : "shprewind.exe",
 	"paths" : 
 	{
 		"build" : "libs/shapelib",
@@ -332,25 +332,25 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpcreate_autogen/mocs_compilation.cpp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "libs/shapelib/shpcreate.c",
+			"path" : "libs/shapelib/shprewind.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpcreate_autogen/timestamp",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shpcreate_autogen/timestamp.rule",
+			"path" : "C:/QGC-ROS2/cmakeBuild/libs/shapelib/shprewind_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],
